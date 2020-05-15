@@ -1,15 +1,33 @@
 /* colours */
 /* Gold #BA890B */
-
+/* Fonts */
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Spartan', sans-serif; */
 /* elements */
+body {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Spartan', sans-serif;
+}
 
 /* global */
 .container-fluid {
-  padding: 15% 7%;
+  padding: 7% 15%;
 }
 
 .left-aligned {
   text-align: left;
+}
+
+.right-alligned {
+  text-align: right;
+}
+
+.horizontal-centre {
+  margin: auto;
 }
 
 /* sections */
@@ -22,10 +40,54 @@
   background-color: black;
 }
 
+.navbar-img {
+  text-align: left;
+}
+
 .fixed-top {
   padding-left: 15%;
   padding-right: 15%;
 }
 
+.nav-item {
+  padding: 0 15px;
+}
 
 /* title */
+.title-text {
+  font-family: 'Spartan', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: left;
+  margin: auto;
+}
+
+.title-img {
+  width: 50%;
+  border-radius: 2px;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
+  z-index: -1;
+}
+
+.title-row {
+  margin-top: 10px;
+}
+
+@media (max-width: 1028px){
+  .title-row{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .title-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .title-img {
+    margin-top: 10px;
+  }
+}
