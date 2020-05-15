@@ -54,6 +54,11 @@ h1 {
 }
 
 /* title */
+
+.container-title {
+  padding: 1% 15% 7% 15%;
+}
+
 .title-text {
   font-family: 'Spartan', sans-serif;
   color: white;
@@ -73,7 +78,7 @@ h1 {
 }
 
 .title-row {
-  margin-top: 10px;
+  margin: 10px 0 0 0;
 }
 
 @media (max-width: 1028px){
