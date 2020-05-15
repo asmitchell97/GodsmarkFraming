@@ -1,0 +1,31 @@
+/* colours */
+/* Gold #BA890B */
+
+/* elements */
+
+/* global */
+.container-fluid {
+  padding: 15% 7%;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+/* sections */
+.black-section {
+  background-color: black;
+}
+
+/* navbar */
+.navbar-bg {
+  background-color: black;
+}
+
+.fixed-top {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
+/* title */
