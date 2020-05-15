@@ -30,9 +30,21 @@ h1 {
   margin: auto;
 }
 
+.grey-text{
+  color: grey;
+}
+
 /* sections */
 .black-section {
   background-color: black;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.coloured-section {
+  background-color: #C6A247;
 }
 
 /* navbar */
@@ -75,11 +87,36 @@ h1 {
   border-width: medium;
   border-style: solid;
   z-index: -1;
+  margin-top: 20px;
 }
 
 .title-row {
   margin: 10px 0 0 0;
 }
+
+/* features */
+
+.feature-img {
+  color: #BA890B;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.feature-img:hover {
+  color: #C6A247;
+}
+
+.feature-header {
+  font-family: 'Spartan', sans-serif;
+}
+
+.feature-col {
+  padding: 20px;
+}
+
+/* reviews carousel */
+
+
 
 @media (max-width: 1028px){
   .title-row{
@@ -93,6 +130,6 @@ h1 {
   }
 
   .title-img {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
