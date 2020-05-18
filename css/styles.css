@@ -138,6 +138,9 @@ h1 {
 /* Delivery */
 
 /* Social Media */
+.social-col {
+  padding: 10px;
+}
 
 /* Footer */
 .footer-fab {
@@ -164,5 +167,12 @@ h1 {
 
   .title-img {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 1200px){
+  .social-col {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
