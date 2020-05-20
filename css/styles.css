@@ -1,5 +1,5 @@
 /* colours */
-/* Gold #BA890B */
+/* Gold #BA890B RGB (186, 137, 11)						 */
 /* Fonts */
 /* font-family: 'Roboto Slab', serif;
 font-family: 'Spartan', sans-serif; */
@@ -22,7 +22,7 @@ h1 {
   text-align: left;
 }
 
-.right-alligned {
+.right-aligned {
   text-align: right;
 }
 
@@ -30,13 +30,66 @@ h1 {
   margin: auto;
 }
 
-.grey-text{
+.grey-text {
   color: grey;
+}
+
+.white-text {
+  color: white;
 }
 
 .sub-heading {
   font-family: 'Spartan', sans-serif;
   font-size: 2.5rem;
+}
+
+.mugshot {
+  width: 30%;
+  margin: 10px;
+}
+
+.form-control:focus {
+        border-color: #BA890B;
+        border-width: medium;
+        box-shadow: 0 0 0 0.2rem rgba(186, 137, 11, 0.25);
+}
+
+.btn-gold {
+   background: #BA890B;
+   background-image: -webkit-linear-gradient(top, #BA890B, #C6A247);
+   background-image: -moz-linear-gradient(top, #BA890B, #C6A247);
+   background-image: -ms-linear-gradient(top, #BA890B, #C6A247);
+   background-image: -o-linear-gradient(top, #BA890B, #C6A247);
+   background-image: linear-gradient(to bottom, #BA890B, #C6A247);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 10px 20px;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn-gold:hover {
+   background: #BA890B;
+   border: ridge #FFFFFF 1px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+.left-padded-col {
+  padding-left: 40px;
+}
+
+.right-padded-col {
+  padding-right: 40px;
 }
 
 /* sections */
@@ -71,7 +124,6 @@ h1 {
 }
 
 /* title */
-
 .container-title {
   padding: 1% 15% 7% 15%;
 }
@@ -100,7 +152,6 @@ h1 {
 }
 
 /* features */
-
 .feature-img {
   color: #BA890B;
   font-size: 3rem;
@@ -120,7 +171,6 @@ h1 {
 }
 
 /* review carousel */
-
 .review-text {
   color: white;
   font-size: 2.5rem;
@@ -136,7 +186,6 @@ h1 {
 }
 
 /* Delivery */
-
 /* Social Media */
 .social-col {
   padding: 10px;
@@ -153,9 +202,8 @@ h1 {
   color: #C6A247;
 }
 
-
-@media (max-width: 1028px){
-  .title-row{
+@media (max-width: 1028px) {
+  .title-row {
     margin-top: 20px;
     text-align: center;
   }
@@ -168,11 +216,54 @@ h1 {
   .title-img {
     margin-top: 20px;
   }
+
+  .container-fluid {
+    padding: 7% 5%;
+  }
+
+  .container-title {
+    padding: 1% 5% 7% 5%;
+  }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .social-col {
     padding-left: 40px;
     padding-right: 40px;
   }
+}
+
+@media (max-width: 900px) {
+  .social-col {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/**************************** About ***************************************/
+/* title */
+
+
+/**************************** Contact *************************************/
+/* title */
+.contact-heading {
+  padding: 50px;
+  font-size: 3rem;
+}
+
+.contact-form-div {
+  padding-top: 50px;
+}
+
+.contact-form-entry {
+  padding: 5px;
+}
+
+.contact-img {
+  width: 50%;
+  filter: invert(63%) sepia(23%) saturate(7155%) hue-rotate(16deg) brightness(91%) contrast(91%);
+}
+
+.contact-location {
+  font-weight: bold;
 }
