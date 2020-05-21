@@ -92,6 +92,11 @@ h1 {
   padding-right: 40px;
 }
 
+.fine-print {
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
 /* sections */
 .black-section {
   background-color: black;
@@ -237,7 +242,7 @@ h1 {
 }
 
 .contact-details {
-  padding: 50px 40px 40px 50px;
+  padding: 0px 40px 40px 50px;
 }
 
 .contact-details-entry {
@@ -291,5 +296,14 @@ h1 {
 
   .container-title {
     padding: 1% 5% 7% 5%;
+  }
+
+  .contact-details {
+    padding: 50px 40px 40px 50px;
+  }
+
+  .right-padded-col {
+    padding-right: 50px;
+    padding-left: 50px;
   }
 }

@@ -69,23 +69,25 @@
         <div class="col-lg-6 col-md-12 right-padded-col">
           <form method="post" name="emailForm" action="formToEmail.php">
             <div class="form-group left-aligned contact-form-entry">
-              <input type="text" class="form-control" name="name" id="nameInput" placeholder="Name">
+              <input type="text" class="form-control" name="name" id="nameInput" placeholder="Name" required>
             </div>
             <div class="form-group left-aligned contact-form-entry">
-              <input type="email" class="form-control" name="email" id="exampleAddressInput" aria-describedby="emailHelp" placeholder="Email">
+              <input type="email" class="form-control" name="email" id="exampleAddressInput" aria-describedby="emailHelp" placeholder="Email" required>
             </div>
             <div class="form-group left-aligned contact-form-entry">
               <input type="tel" class="form-control" name="telephone" id="numberInput" placeholder="Telephone">
+              <small class="white-text fine-print">*Optional</small>
             </div>
             <div class="form-group left-aligned contact-form-entry">
-              <textarea class="form-control" name="message" id="messageInput" rows="8" cols="80" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" id="messageInput" rows="8" cols="80" placeholder="Message" maxlength="6000" required></textarea>
             </div>
             <button type="submit" class="btn-gold">Submit</button>
           </form>
         </div>
         <!-- Contact Info -->
-        <div class="col-lg-6 col-md-12 vertical-centre contact-details">
+        <div class="col-lg-6 col-md-12 contact-details">
           <div class="col">
+            <hr class="contact-hr">
             <div class="row contact-details-entry">
               <div class="col-4">
                 <a href="https://www.google.com/maps/place/Dunfermline/@56.065921,-3.5085636,12z/data=!3m1!4b1!4m5!3m4!1s0x4887cc2c81d50c1f:0x541d50a1e83ddece!8m2!3d56.071741!4d-3.452151"><img src="images/location.svg" alt="location" class="contact-img"></a>
@@ -95,14 +97,18 @@
                 <p class="white-text">Dunfermline, Scotland</p>
               </div>
             </div>
+            <hr class="contact-hr">
+
             <div class="row contact-details-entry">
               <div class="col-4">
-                <img src="images/telephone.svg" alt="telephone" class="contact-img">
+                <a href="tel:+441234567"><img src="images/telephone.svg" alt="telephone" class="contact-img"></a>
               </div>
               <div class="col-8 vertical-centre">
-                <a href="tel:+441234567"><p class="white-text">+441234567</p></a>
+                <p class="white-text">+441234567</p>
               </div>
             </div>
+            <hr class="contact-hr">
+
             <div class="row contact-details-entry">
               <div class="col-4">
                 <a href="mailto:adgodsmark90@gmail.com"><img src="images/email.svg" alt="email" class="contact-img"></a>
@@ -112,10 +118,11 @@
               </div>
             </div>
             <hr class="contact-hr">
-            <a href="https://twitter.com/godsmarksframes" class="contact-fab"><i class="fab fa-twitter"></i></a>
+
+            <!-- <a href="https://twitter.com/godsmarksframes" class="contact-fab"><i class="fab fa-twitter"></i></a>
             <a href="https://www.facebook.com/godsmarksframing/" class="contact-fab"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/godsmarksframing/" class="contact-fab"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:adgodsmark90@gmail.com" class="contact-fab"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:adgodsmark90@gmail.com" class="contact-fab"><i class="fas fa-envelope"></i></a> -->
           </div>
 
         </div>
