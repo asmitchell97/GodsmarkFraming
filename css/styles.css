@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: 'Spartan', sans-serif;
 }
 
@@ -38,13 +38,21 @@ h1 {
   color: white;
 }
 
+.gold-text {
+  color: #BA890B;
+}
+
+.gold-text:hover {
+  color: #C6A247;
+}
+
 .sub-heading {
   font-family: 'Spartan', sans-serif;
   font-size: 2.5rem;
 }
 
 .mugshot {
-  width: 30%;
+  width: 20%;
   margin: 10px;
 }
 
@@ -209,6 +217,10 @@ h1 {
 
 /**************************** About ***************************************/
 /* title */
+
+.p-about {
+  padding: 20px 0;
+}
 /**************************** Contact *************************************/
 /* title */
 .contact-heading {
